@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stone", "Stone", "{8BE50037-A5F4-4631-ABA8-3236F0CC7FC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID", "SOLID\SOLID.csproj", "{6566EFAD-D208-4E49-91C4-2A9294082537}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6566EFAD-D208-4E49-91C4-2A9294082537} = {8BE50037-A5F4-4631-ABA8-3236F0CC7FC3}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6566EFAD-D208-4E49-91C4-2A9294082537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6566EFAD-D208-4E49-91C4-2A9294082537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6566EFAD-D208-4E49-91C4-2A9294082537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6566EFAD-D208-4E49-91C4-2A9294082537}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
