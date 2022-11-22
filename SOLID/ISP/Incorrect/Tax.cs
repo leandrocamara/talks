@@ -4,20 +4,20 @@ namespace SOLID.ISP.Incorrect;
 
 public interface ITax
 {
-    Invoice GenerateInvoce();
+    Invoice GenerateInvoice();
     double GenerateTax(double value);
 }
 
 public class Iss : ITax
 {
-    public Invoice GenerateInvoce() => new Invoice();
+    public Invoice GenerateInvoice() => new Invoice();
 
     public double GenerateTax(double value) => value * 0.1;
 }
 
 public class Ixmx : ITax
 {
-    public Invoice GenerateInvoce() => throw new NotSupportedException();
+    public Invoice GenerateInvoice() => throw new NotSupportedException();
 
     public double GenerateTax(double value) => value * 0.2;
 }
